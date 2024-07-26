@@ -55,13 +55,14 @@ a:hover{
     color:yellow;
     
 }
-#levy-sobremim{
+#levy-sobremim-img{
     position: relative;
     width: 400px;
     height: 400px;
     border-radius: 100%;
     display: inline-block;
     float: right;
+    bottom:90px;
 }
 .text-sobremim{
     font-size: 25px;
