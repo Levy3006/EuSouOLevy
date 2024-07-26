@@ -1,0 +1,139 @@
+body{
+    overflow-x:hidden;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color:darkred;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:white;
+    width: 110%;
+    height: auto;
+    margin-left: -15px;
+    margin-top: -10px;
+    
+}
+
+#nav{
+    background-color:black;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 120%;
+    height: auto;
+    margin-left: -90px;
+
+}
+.list-footer li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px; 
+}
+.list-footer-header{
+    margin-right: 150px;
+}
+.list-footer-header li{
+    
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:link{
+    margin:20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:yellow;
+    
+}
+#levy-sobremim{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    display: inline-block;
+    float: right;
+}
+.text-sobremim{
+    font-size: 25px;
+    top:40px;
+    margin-left:50px;
+}
+dl dt{
+    display:inline-block;
+}
+.img-tecno{
+    margin-left:30px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    padding: 10px;
+}
+.logo2{
+    width: 150px;
+}
+.logo3{
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.database-img{
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+}
+.programing-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.loading{
+    width: 50px;
+    height:50px;
+    background-color: transparent;
+    border-radius: 50%;
+    display :block;
+    position:fixed;
+    margin-left:45%;
+    margin-top:10%;
+    border-color: darkorange;
+    border-style: solid;
+    border-right:12px solid transparent;
+    border-width: 22px;
+    transition: opacity 1s, visibility 1s;
+    animation: loading 1s ease-in-out infinite;
+}
+.loading-hidden{
+    opacity:0;
+    visibility:hidden;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+#footer{
+    width: 100%;
+    height: auto;
+    padding:40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size:x-large;
+    margin-top:100px;
+    margin-left:-60px;
+}
