@@ -77,7 +77,32 @@ section.slider{
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
+    section.slider{
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+        padding-bottom: 45px !important;
+        overflow: hidden;
+    }
+    .nav-manual, .nav-auto{
+        position:absolute;
+        width: 70%;
+        margin-top: 47%;
+        display: flex;
+        margin-left: 25%;
+    }
+    
+    .nav-manual .manual-btn, .nav-auto div{
+        border:1px solid red;
+        padding: 7px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s;
+        margin-left:5px;
+        margin-top:10px;
+    
+    }
     .img-desktop{
         display:none;
     }
