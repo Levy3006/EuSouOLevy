@@ -88,21 +88,16 @@ a:hover{
     }
 }
 
-
-#img-index{
-    margin:55px;
-    border-radius:5%;
-    width:70%;
+.h1-artigos{
+    margin-left:90px;
 }
 
-
-.body-artigos{
-    text-align:left;
-    margin-left: 70px;
+.text{
+    margin-left:90px;
 }
 #search{
     width: 650px;
-    margin-left:180px;
+    margin-left:90px;
     padding-top:19px;
     padding-bottom: 6px;
     border:2px solid black;
@@ -139,27 +134,20 @@ input[placeholder="Buscar..."]{
     margin-top: 0px;
 }
 .titulo{
-    margin:45px;
-    font-size: 40px;
+    margin:15px;
+    font-size: 30px;
+    font-weight: bold;
 }
-p{
-    font-size: 23px;
-    margin-left: 45px;
-}
-#intro-artigos{
-    font-size: 25px;
-    margin-left: 180px;
-    margin-top: 50px;
-}
+
 .card{
-    margin-top: 5%;
-    margin-left: 10%;
+
     border-radius: 15px;
-    width: 30%;
+    width: 25em;
     height: 15em;
     border-style:solid;
     border-color: darkred;
-    padding:5px
+    padding:5px;
+    margin:15px;
     
 }
 .card dl dt h3{
@@ -168,17 +156,13 @@ p{
 
 .card .footer-card{
     position: relative;
-    display: flex;
-    justify-content: end;
-    margin-top:70px;
-    margin-left: 250px;
+    display:inline-block;
     font-size: 20px;
     color: white;
     border:2px solid black;
     width:90px;
     height: 40px;
-    padding-top:10px;
-    padding-right:15px;
+    padding:10px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
@@ -189,8 +173,10 @@ p{
     
     background-color: black;
 }
-#container-artigos section{
-    display: inline-block
+#container-artigos{
+    position:relative;
+    
+    margin: 30px;
 }
 
 
@@ -385,7 +371,7 @@ p{
         background-color:yellow;
     }
     .h1-artigos{
-        margin-left:px;
+        margin-left:20px;
     }
     #pages{
         text-align:center;

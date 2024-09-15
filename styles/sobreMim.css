@@ -1,6 +1,7 @@
 body{
     overflow-x:hidden;
     font-family:  Arial, Helvetica, sans-serif;
+    
 }
 .img-sobreMim{
     border-radius:15px;
@@ -28,6 +29,7 @@ body{
     width: 120%;
     height: auto;
     margin-left: -90px;
+    margin-bottom:100px;
 
 }
 .list-footer li{
@@ -64,14 +66,21 @@ a:hover{
     width: 400px;
     height: 400px;
     border-radius: 100%;
-    display: inline-block;
-    float: right;
+    float:right;
     bottom:90px;
+    margin-top: 10px;
+    margin-right:20px;
 }
-.text-sobremim{
-    font-size: 25px;
-    top:40px;
-    margin-left:50px;
+.titulo{
+    margin-left: 23px;
+}
+.text{
+    font-size:22px;
+    display:block;
+    margin-left: 23px;
+    margin-top:10px;
+    margin-right:20px;
+    
 }
 dl dt{
     display:inline-block;
@@ -152,7 +161,6 @@ dl dt{
         font-size:16px;
         display:block;
         
-
     }
     .img-sobreMim{
         border-radius:15px;
