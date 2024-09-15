@@ -15,8 +15,10 @@ body{
     margin-top: -10px;
 }
 .titulo{
-    margin-left: 73px;
+    margin-left: 70px;
+    margin-top:80px;
     font-size: 30px;
+    
 }
 #nav{
     background-color:black;
@@ -65,7 +67,16 @@ a:hover{
     
 }
 #body-projetos{
-    margin-left: 50px;
+    margin-left: 60px;
+}
+.text{
+    margin-left: 70px;
+    font-size: 22px;
+}
+.projetos-img{
+    width:40%;
+    height: 50%;
+    margin-left: 40px;
 }
 .loading{
     width: 50px;

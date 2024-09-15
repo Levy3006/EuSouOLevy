@@ -94,6 +94,7 @@ a:hover{
 
 .text{
     margin-left:90px;
+    font-size: 22px;
 }
 #search{
     width: 650px;
@@ -134,15 +135,19 @@ input[placeholder="Buscar..."]{
     margin-top: 0px;
 }
 .titulo{
-    margin:15px;
+    margin-top:80px;
+    margin-left:50px;
     font-size: 30px;
     font-weight: bold;
+}
+.set-cards{
+    margin-left:35px;
 }
 
 .card{
 
     border-radius: 15px;
-    width: 25em;
+    width: 22em;
     height: 15em;
     border-style:solid;
     border-color: darkred;
@@ -150,38 +155,49 @@ input[placeholder="Buscar..."]{
     margin:15px;
     
 }
+.card:hover{
+    transition: 0.3s;
+    font-size:18px;
+}
 .card dl dt h3{
     margin-left: 15pxs;
 }
 
-.card .footer-card{
-    position: relative;
-    display:inline-block;
+.footer-card{
     font-size: 20px;
     color: white;
     border:2px solid black;
     width:90px;
-    height: 40px;
+    height: 35px;
     padding:10px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
     background-color: darkred;
+    margin-left: 65%;
+    margin-top:20%;
     
 }
 .footer-card:hover{
     
-    background-color: black;
+    background-color: green;
+    transition: 0.2s;
 }
 #container-artigos{
-    position:relative;
-    
-    margin: 30px;
+    margin: -10px;
 }
-
+#pages{
+    margin-left: 40%;
+    justify-content: center;
+    font-size: 30px;
+}
+.arrow{
+    height: 50px;
+}
 
 .arrow:hover{
     background-color:yellow;
+    border-radius: 100%;
 }
 #footer{
     width: 100%;
