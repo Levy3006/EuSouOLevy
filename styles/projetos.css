@@ -30,11 +30,16 @@ body{
     margin-left: -90px;
 
 }
-#link-projeto{
+#body-projetos{
+    margin-left: 60px;
+}
+.link-projeto{
     color:black;
     font-size: 30px;
+    margin-bottom: -10px;
 }
-#link-projeto:hover{
+
+.link-projeto:hover{
     color: green;
 }
 .list-footer li{
@@ -64,10 +69,6 @@ a:visited{
 }
 a:hover{
     color:yellow;
-    
-}
-#body-projetos{
-    margin-left: 60px;
 }
 .text{
     margin-left: 70px;
@@ -77,6 +78,12 @@ a:hover{
     width:40%;
     height: 50%;
     margin-left: 40px;
+}
+.video-gif{
+    border-radius: 3%;
+    width: 40%;
+    margin-left: 40px;
+    height:40%;
 }
 .loading{
     width: 50px;
@@ -165,7 +172,6 @@ a:hover{
 
 }
 a:link{
-    
     font-size: 15px;
     text-decoration: none;
     color: white;
