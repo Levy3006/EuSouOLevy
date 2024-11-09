@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobremim</title>
+    <link rel="stylesheet" type="text/css" href="../styles/sobreMim.css">
+    <script src="../scripts/scriptLoading.js" defer></script>
+</head>
+<body>
+    <%- include("header.ejs") %>
+    
+    <section class="text">
+        <h1 class="titulo">Quem sou Eu?</h1>
+        <img id = "levy-sobremim-img" src="../img/levySobreMim.jpeg">
+    
+        <p class="text"> Meu nome é Levy, tenho 24 anos e sou Bolsista na área de tecnologia.
+             Já fiz cursos de Desenvolvimento Web, Lógica de Programação, Data Science e Desenvolvimento
+              de Softwares. Meu objetivo é a busca pelo constante aperfeiçoamento
+               das minhas habilidades.
+        </p>
+        <P class="titulo">Desenvolvimento Web</P>
+        <dl class="img-tecno">
+            <dt><img class="logo" src="../img/html-1.svg"> </dt>
+            <dt><img class="logo" src="../img/css-3.svg"></dt>
+            <dt><img class="logo" src="../img/javascript-1.svg"></dt>
+            <dt><img class="logo2" src="../img/node.png"></dt>
+            <dt><img class="logo3" src="../img/express.png"></dt>           
+        </dl>
+
+        <P class = "titulo">Banco de Dados</P>
+        <dl class="img-tecno" >
+            <dt><img class="database-img" src="../img/Sql_logo.png"> </dt>
+            <dt><img class="database-img" src="../img/mongodb-logo-vector-2022.png"></dt>            
+        </dl>
+
+        <P class="titulo">Linguagens de Programação</P>
+        <dl class="img-tecno">
+            <dt><img class="programing-img" src="../img/python.png"> </dt>
+            <dt><img class="programing-img" src="../img/javascript-1.svg"></dt>
+            <dt><img class="programing-img" src="../img/java-logo.jpg"></dt>            
+        </dl>
+       
+        <section id="bolsa-jovem">
+        <h1 class="titulo">Participação em Projetos</h1>
+        <p class="text">Projeto Bolsa Jovem 2023: tive a oportunidade de participar do desenvolvimento da automatização de um
+            relatório de prestação de contas de um orgão fiscalizador da prefeitura de fortaleza(CGM). As tecnologias que eu 
+            juntamente com minha equipe(Amanda Sales, Brenda Tavares, David Calixto e Matheus Willamy) e o estagiário lider (Luiz Guilherme)
+            foram Python e Excel. No final de 2023 tivemos a oportunidade 
+            de participar da premiação do Fortaleza no controle, onde fomos finalistas na Premiação.
+        </p>
+            <figure>
+                <img class="img-sobreMim" alt="equipe(Amanda Sales, Brenda Tavares, Lorran Bezera e Matheus Willamy) e o estagiário lider (Luiz Guilherme)" src="../img/fortalezaControle.jpg">
+                <figcaption style="font-size:medium">Equipe(Amanda Sales, Brenda Tavares, David Calixto e Matheus Willamy) e o estagiário líder (Luiz Guilherme)</figcaption>
+            </figure>
+        </section>
+        <section id="JD-na-pratica">
+        <h1 class="titulo">Projeto JD na Prática</h1>
+        <p class="text">Em maio de 2024, fui um dos 25 jovens selecionados para participar do programa JD na Prática, onde passamos 3 meses estudando o tema qualidade do ar.
+             Nos foi dado o desafio de elaborar uma página de análise de dados que trouxesse principais dados sobre a qualidade do ar em fortaleza. dentro do programa, pude aprender
+              tecnologias como: mongoDB, node.js, express.js e apexcharts.js.</p>
+        <figure>
+            <img class="img-sobreMim" src="../img/JDnaPrática.jpeg">
+            <figcaption style="font-size:medium">Lhara(Monitora do JD Lab) na esquerda e Equipe(Vitor Santos, Samuel Araújo e Patrício Felício) juntamente com o<br> Gabriel(Mentor) em uma das reuniões do projeto JD na Prática</figcaption>
+        </figure>   
+        </section>
+        </section>
+    <!--<a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Laisa Islam Ani - Flaticon</a>-->
+    <!--<a href="https://www.flaticon.com/br/icones-gratis/whatsapp" title="whatsapp ícones">Whatsapp ícones criados por Pixel perfect - Flaticon</a>-->
+    <!--<a href="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram" title="logotipo do instagram ícones">Logotipo do instagram ícones criados por Freepik - Flaticon</a>-->
+    
+    <%- include("footer.ejs") %>
+</body>
+</html>

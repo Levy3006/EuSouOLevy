@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artigos</title>
+    <link rel="stylesheet" type="text/css" href="../styles/artigos.css">
+    <script src="../scripts/scriptLoading.js"></script>
+</head>
+<body>
+    <%- include('header.ejs') %>
+    <p class="titulo">Em Breve...</p>
+    <p class="text">Uma sessão recheada de artigos sobre temas ligados a programação e tecnologia. Aprenda, Inspire-se, Opine!</p>
+
+    <div class="search-container">
+        <input type="search" class="search-box" placeholder="Buscar...">
+        <button class="search-button">Pesquisar</button>
+    </div>
+
+    <p class="titulo">Recomendados</p>
+    <div class="grid-article">
+        <div class="container">
+          <div class="box">
+            <img src="../img/lineofpeople.jpg" alt="">
+            <h2>Recursividade: Entenda como funciona</h2>
+            <p>Neste tópico, abordaremos um assunto fundamental para criar códigos elegantes</p>
+          </div>
+          <div class="box">
+            <img src="../img/fibonacci.jpg" alt="Descrição da imagem">
+            <h2>Como construir o Algorítimo de Fibonacci?</h2>
+            <p>Parece complexo, mas neste artigo abordaremos técnicas para entendê-lo</p>
+          </div>
+          <div class="box">
+            <img src="../img/programing.jpg" alt="Descrição da imagem">
+            <h2>Como iniciar na Programação?</h2>
+            <p>Se você está começando, a sua base será determinante durante todo o trajeto</p>
+          </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="../img/trafficlight.jpg" alt="Descrição da imagem">
+                <h2>Introdução a Algorítimos</h2>
+            <p>Neste artigo iremos abordar brevemente a definição de algorítimo, refoçando com alguns exemplos,
+                e ao final, abordaremos alguns algorítimos famosos.
+            </p>
+            </div>
+            <div class="box">
+                <img src="../img/cars.jpg" alt="Descrição da imagem">
+                <h2>Orientação a Objetos</h2>
+                <p>Entenda por quê esse paradigma é tão requisitado.</p>
+            </div>
+            <div class="box">
+                <img src="../img/backend.jpg" alt="Descrição da imagem">
+                <h2>Desenvolvimento Back End</h2>
+            <p>Neste artigos abordaderemos os primeiros passos para começar</p>
+            </div>
+        </div>
+    </div>
+       <div id="pages"><a href=""><img class="arrow" src="../img/left-arrow.png"></a>1 2 3 4 5 6<a href=""><img class="arrow" src="../img/left-arrow(1).png"></a></div>
+    <%- include("footer.ejs") %>
+</body>
+</html>
