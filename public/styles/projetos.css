@@ -14,7 +14,7 @@ body{
     margin-top: -10px;
 }
 .titulo{
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top:80px;
     font-size: 30px;
 }
@@ -28,13 +28,30 @@ body{
     margin-left: -90px;
 
 }
-#body-projetos{
+.body-projetos{
     margin-left: 60px;
+
+}
+.projetos-img{
+    width:40%;
+    height: 50%;
+    margin-left: 40px;
+}
+.video-gif{
+    border-radius: 3%;
+    width: 50%;
+    
+    height:50%;
 }
 .link-projeto{
     color:black;
     font-size: 30px;
     margin-bottom: -10px;
+}
+h2.link-projeto:hover{
+    transform: scale(1.1); 
+    transition: 0.3s ease;
+    margin-left: 60px;
 }
 
 .link-projeto:hover{
@@ -70,17 +87,7 @@ a:hover{
     margin-left: 70px;
     font-size: 22px;
 }
-.projetos-img{
-    width:40%;
-    height: 50%;
-    margin-left: 40px;
-}
-.video-gif{
-    border-radius: 3%;
-    width: 70%;
-    margin-left: 20px;
-    height:50%;
-}
+
 .loading{
     width: 50px;
     height:50px;
@@ -110,15 +117,18 @@ a:hover{
     }
 }
 #footer{
-    width: 100%;
+    width: 110%;
     height: auto;
-    padding:40px;
+    padding:10px;
     background-color: black;
     color: white;
     text-align: center;
     font-size:x-large;
     margin-top:100px;
     margin-left:-60px;
+}
+.img-icon{
+    width: 30px;
 }
 @media screen and (max-width: 923px){
 #header{
@@ -153,14 +163,15 @@ a:hover{
     margin-right: 0px;
 }
 #footer{
-    width: 120%;
+    width: 110%;
     height: auto;
-    padding:1px;
+    padding:10px;
     background-color: black;
     color: white;
-    justify-content: center;
-    font-size:large;
-    margin-top:50px;
+    text-align: center;
+    font-size:x-large;
+    margin-top:100px;
+    margin-left:-60px;
 }
 .img-icon{
     width: 30px;
