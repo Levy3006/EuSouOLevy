@@ -172,11 +172,10 @@ dl dt{
     margin-top:100px;
     margin-left:-60px;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width: 923px){
     body{
         overflow-x:hidden;
         font-family:  Arial, Helvetica, sans-serif;
-        margin-left: 40px;
     }
     .text-body-sobre-mim{
         font-size:16px;
@@ -202,18 +201,25 @@ dl dt{
         padding-top: 20px;
         padding-bottom: 10px;
         color:white;
-        width: 140%;
+        width: 130%;
         height: auto;
-        margin-left: -40px;
         
+    }
+    #nav{
+        background-color:black;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        width: 150%;
+        height: auto;
     }
     .list-footer li{
         list-style: none;
         display: inline-block;
-        margin-right: 10px; 
+        margin-right: 20px; 
     }
     .list-footer-header{
-        margin-right: 100px;
+        margin-right: 150px;
     }
     .list-footer-header li{
         
@@ -232,18 +238,6 @@ dl dt{
         margin-top:100px;
         
     }
-    
-    #nav{
-        background-color:black;
-        text-align: center;
-        padding-top:10px;
-        padding-bottom: 10px;
-        width: 140%;
-        height: auto;
-        margin-left:-40px;
-        
-    
-    }
     a:link{
         
         font-size: 15px;
@@ -252,6 +246,7 @@ dl dt{
         
         
     }
+
     #bolsa-jovem{
         display:block;
     }

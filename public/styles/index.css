@@ -120,7 +120,7 @@ a:hover{
     margin-top:100px;
     margin-left:-60px;
 }
-@media screen and (max-width:718px){
+@media screen and (max-width:923px){
     body{
         overflow-x:hidden;
         font-family:  Arial, Helvetica, sans-serif;
@@ -138,6 +138,14 @@ a:hover{
         width: 130%;
         height: auto;
         
+    }
+    #nav{
+        background-color:black;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        width: 150%;
+        height: auto;
     }
     .list-footer li{
         list-style: none;
@@ -164,30 +172,10 @@ a:hover{
         margin-top:100px;
         
     }
-    
-    #nav{
-        background-color:black;
-        text-align: center;
-        padding-top:10px;
-        padding-bottom: 10px;
-        width: 150%;
-        height: auto;
-        
-    
-    }
     a:link{
         
         font-size: 15px;
         text-decoration: none;
-        color: white;
-        
-        
+        color: white; 
     }
-    .body-home{
-        margin-top: 40px;
-        margin-left:50px;
-        font-size:13px;
-    }
-    
-
 }

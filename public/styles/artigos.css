@@ -238,11 +238,33 @@ a:hover{
     margin-top:100px;
     margin-left:-60px;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:923px){
     body{
         overflow-x:hidden;
-        font-family:  Arial, Helvetica, sans-serif;
-        margin-left:40px;
+        font-family:  Arial, Helvetica, sans-serif; 
+    }
+    .grid-article{
+        margin:20px;
+    }
+    .container {
+        margin-top: 50px;
+        display: flex; /* Faz as divs ficarem lado a lado */
+        flex-direction: column;
+        gap: 30px;     /* Espaçamento entre as divs */
+    }
+    .box {
+        background-color: lightgray;
+        border-radius: 5px;
+        height: 200px;
+        padding: 15px;
+        flex: 1;       /* Faz com que cada div ocupe o mesmo espaço */
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+        overflow: hidden; 
+        word-wrap: break-word;
+    }
+    .box > img{
+        height:auto;
+        width:100%;
         
     }
     .text{
@@ -269,18 +291,25 @@ a:hover{
         padding-top: 20px;
         padding-bottom: 10px;
         color:white;
-        width: 140%;
+        width: 130%;
         height: auto;
-        margin-left: -40px;
         
+    }
+    #nav{
+        background-color:black;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        width: 150%;
+        height: auto;
     }
     .list-footer li{
         list-style: none;
         display: inline-block;
-        margin-right: 10px; 
+        margin-right: 20px; 
     }
     .list-footer-header{
-        margin-right: 100px;
+        margin-right: 150px;
     }
     .list-footer-header li{
         
@@ -299,27 +328,12 @@ a:hover{
         margin-top:100px;
         
     }
-    
-    #nav{
-        background-color:black;
-        text-align: center;
-        padding-top:10px;
-        padding-bottom: 10px;
-        width: 140%;
-        height: auto;
-        margin-left:-40px;
-        
-    
-    }
     a:link{
         
         font-size: 15px;
         text-decoration: none;
         color: white;
-        
-        
     }
-   
     #search{
         width: 70%;
         margin-left:45px;
@@ -353,8 +367,6 @@ a:hover{
         font-size: 17px;
         padding:2px;
     }
-    
-    
     .legenda{
         margin-top: 0px;
     }
@@ -367,49 +379,10 @@ a:hover{
         margin-left: 25px;
         margin-top: 50px;
     }
-    .card{
-        margin-top: 1%;
-        margin-left: 5px;
-        margin-right:10px;
-        border-radius: 15px;
-        width: 40%;
-        height: 25vh;
-        border-style:solid;
-        border-color: darkred;
-        padding:5px
-        
-    }
-    .card dl dt h3{
-        margin-left: 15pxs;
-    }
-    
-    .card .footer-card{
-        position: relative;
-        display: flex;
-        justify-content: end;
-        margin-top:70px;
-        margin-left:5px;
-        font-size: 20px;
-        color: white;
-        border:2px solid black;
-        width:90px;
-        height: 35px;
-        padding-top:10px;
-        padding-right:15px;
-        font-size: 20px;
-        font-weight: bold;
-        border-radius: 5px;
-        background-color: darkred;
-        
-    }
-    .footer-card:hover{
-        background-color: black;
-    }
     #container-artigos section{
         display: inline-block;
         margin-left: 2px;
     }
-    
     .arrow:hover{
 
         background-color:yellow;
@@ -423,9 +396,6 @@ a:hover{
         font-weight:bold;
         margin-top:40px;
         width:40px;
-    }
-    .set-cards{
-        margin-left:-30px;
     }
 
 }

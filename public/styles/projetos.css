@@ -125,7 +125,7 @@ a:hover{
     margin-top:100px;
     margin-left:-60px;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width: 923px){
 #header{
     background-color:darkred;
     text-align: right;
