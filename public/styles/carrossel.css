@@ -74,7 +74,6 @@ section.slider{
 }
 #btn-4:checked ~ .primeiro{
     margin-left: -75%;
-
 }
 
 @media screen and (max-width: 923px){
@@ -100,7 +99,7 @@ section.slider{
         cursor: pointer;
         transition: 0.2s;
         margin-left:5px;
-        margin-top:10px;
+        margin-top:20px;
     
     }
     .img-desktop{

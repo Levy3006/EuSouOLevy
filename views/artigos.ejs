@@ -9,15 +9,16 @@
 </head>
 <body>
     <%- include('header.ejs') %>
-    <p class="titulo">Em Breve...</p>
-    <p class="text">Uma sessão recheada de artigos sobre temas ligados a programação e tecnologia. Aprenda, Inspire-se, Opine!</p>
-
+    <section class="textInicial">
+        <h1 class="titulo">Em Breve...</h1>
+        <p>Uma sessão recheada de artigos sobre temas ligados a programação e tecnologia. Aprenda, Inspire-se, Opine!</p>
+    </section>
     <div class="search-container">
         <input type="search" class="search-box" placeholder="Buscar...">
         <button class="search-button">Pesquisar</button>
     </div>
 
-    <p class="titulo">Recomendados</p>
+    <h1 class="textInicial">Recomendados</h1>
     <div class="grid-article">
         <div class="container">
           <div class="box">
@@ -56,7 +57,11 @@
             </div>
         </div>
     </div>
-       <div id="pages"><a href=""><img class="arrow" src="../img/left-arrow.png"></a>1 2 3 4 5 6<a href=""><img class="arrow" src="../img/left-arrow(1).png"></a></div>
+        <div class="arrows">
+            <a href=""><img class="arrow" src="../img/left-arrow.png"></a>
+            <a href=""><img class="arrow" src="../img/left-arrow(1).png"></a>
+        </div>
+    <div class="pages">1 2 3 4 5 6</div>
     <%- include("footer.ejs") %>
 </body>
 </html>

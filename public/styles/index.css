@@ -6,8 +6,6 @@ body{
     margin-top: 40px;
     margin-left:50px;
 }
-
-
 #header{
     background-color:darkred;
     text-align: right;
@@ -18,12 +16,6 @@ body{
     height: auto;
     margin-left: -15px;
     margin-top: -10px;
-    
-}
-#img-index{
-    margin:55px;
-    border-radius:5%;
-    width:70%;
 }
 #nav{
     background-color:black;
@@ -33,11 +25,6 @@ body{
     width: 120%;
     height: auto;
     margin-left: -90px;
-
-}
-.body-index{
-    text-align:left;
-    margin-left: 20%;
 }
 .list-footer li{
     list-style: none;
@@ -48,10 +35,23 @@ body{
     margin-right: 150px;
 }
 .list-footer-header li{
-    
     list-style: none;
     display: inline-block;
     margin-right: 0px;
+}
+#img-index{
+    margin:55px;
+    border-radius:5%;
+    width:70%;
+}
+
+.body-index{
+    text-align:left;
+    margin-left: 20%;
+}
+
+dt{
+    font-weight: bold;
 }
 
 a:link{
@@ -67,19 +67,6 @@ a:visited{
 a:hover{
     color:yellow;
     
-}
-.titulo{
-    margin-left: 50px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.text{
-    margin-left: 50px;
-    font-size: 18px;
-}
-#apresentacao{
-    margin-left: 90px;
-    font-size:18px;
 }
 .loading {
     width: 50px;
@@ -124,27 +111,28 @@ a:hover{
     body{
         overflow-x:hidden;
         font-family:  Arial, Helvetica, sans-serif;
-    }.body-home{
-        margin-top: 10px;
-        margin-left:10px;
+        justify-content: center;
+        margin:0px;
     }
-    
+    .body-home{
+        margin:35px;
+    }
     #header{
         background-color:darkred;
         text-align: right;
         padding-top: 20px;
         padding-bottom: 10px;
         color:white;
-        width: 130%;
+        width: 105%;
         height: auto;
-        
+        font-size: 10px;
     }
     #nav{
         background-color:black;
         text-align: center;
         padding-top:10px;
         padding-bottom: 10px;
-        width: 150%;
+        width: 140%;
         height: auto;
     }
     .list-footer li{
@@ -153,24 +141,25 @@ a:hover{
         margin-right: 20px; 
     }
     .list-footer-header{
-        margin-right: 150px;
+        margin-right:20px;
     }
-    .list-footer-header li{
-        
+    .list-footer-header li{    
         list-style: none;
         display: inline-block;
         margin-right: 0px;
     }
     #footer{
-        width: 140%;
+        width: 120%;
         height: auto;
-        padding:5px;
+        padding:1px;
         background-color: black;
         color: white;
-        text-align: center;
-        font-size:x-large;
-        margin-top:100px;
-        
+        justify-content: center;
+        font-size:large;
+        margin-top:50px;
+    }
+    .img-icon{
+        width: 30px;
     }
     a:link{
         

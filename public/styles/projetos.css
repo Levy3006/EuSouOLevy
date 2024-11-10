@@ -2,7 +2,6 @@ body{
     overflow-x:hidden;
     font-family:  Arial, Helvetica, sans-serif;
 }
-
 #header{
     background-color:darkred;
     text-align: right;
@@ -18,7 +17,6 @@ body{
     margin-left: 70px;
     margin-top:80px;
     font-size: 30px;
-    
 }
 #nav{
     background-color:black;
@@ -56,13 +54,11 @@ body{
     display: inline-block;
     margin-right: 0px;
 }
-
 a:link{
     margin:10px;
     font-size: 20px;
     text-decoration: none;
     color: white;
-    
 }
 a:visited{
     color:white;
@@ -81,9 +77,9 @@ a:hover{
 }
 .video-gif{
     border-radius: 3%;
-    width: 40%;
-    margin-left: 40px;
-    height:40%;
+    width: 70%;
+    margin-left: 20px;
+    height:50%;
 }
 .loading{
     width: 50px;
@@ -113,7 +109,6 @@ a:hover{
         transform: rotate(360deg)
     }
 }
-
 #footer{
     width: 100%;
     height: auto;
@@ -132,9 +127,17 @@ a:hover{
     padding-top: 20px;
     padding-bottom: 10px;
     color:white;
-    width: 130%;
+    width: 105%;
     height: auto;
-    
+    font-size: 10px;
+}
+#nav{
+    background-color:black;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 140%;
+    height: auto;
 }
 .list-footer li{
     list-style: none;
@@ -142,34 +145,25 @@ a:hover{
     margin-right: 20px; 
 }
 .list-footer-header{
-    margin-right: 150px;
+    margin-right:20px;
 }
-.list-footer-header li{
-    
+.list-footer-header li{    
     list-style: none;
     display: inline-block;
     margin-right: 0px;
 }
 #footer{
-    width: 140%;
+    width: 120%;
     height: auto;
-    padding:5px;
+    padding:1px;
     background-color: black;
     color: white;
-    text-align: center;
-    font-size:x-large;
-    margin-top:100px;
-    
+    justify-content: center;
+    font-size:large;
+    margin-top:50px;
 }
-
-#nav{
-    background-color:black;
-    text-align: center;
-    padding-top:10px;
-    padding-bottom: 10px;
-    width: 150%;
-    height: auto;
-
+.img-icon{
+    width: 30px;
 }
 a:link{
     font-size: 15px;
@@ -177,15 +171,27 @@ a:link{
     color: white;
 }
 .titulo{
-    margin-left: 50px;
-    font-size: 27px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 40px;
 }
 .text{
     margin-left:50px;
     font-size: 20px;;
 }
-#body-projetos{
-    margin-left:50px;
-    font-size: 15px;
+.body-projetos{
+    margin-left:20px;
+}
+.link-projeto{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.video-gif{
+    border-radius: 3%;
+    width: 70%;
+    margin-left: 0px;
+    height:50%;
 }
 }
